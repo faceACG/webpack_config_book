@@ -1,0 +1,9 @@
+{
+  "presets": [[
+    "@babel/preset-env",
+    {
+      "modules":false // 默认都是支持CommonJs
+    }
+  ]],
+  "plugins":["@babel/plugin-transform-runtime"]
+}
