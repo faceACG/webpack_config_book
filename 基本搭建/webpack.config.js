@@ -14,6 +14,10 @@ module.exports = {
     assetModuleFilename:"images/[name][hash:6][ext]"
 
   },
+  devServer:{
+    open:true,// 自动打开浏览器
+    hot:true
+  },
   module:{ 
     rules:[
       {

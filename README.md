@@ -82,6 +82,16 @@ module.exports = {
 }
 
 ```
+### 开启webpack serve
+```javascript
+module.exports = {
+  ...
+  devServer:{
+    open:true,
+    hot:true
+  }
+}
+```
 ### 其他资源加载(loader)
 #### babel-loader (处理js代码将es6高级语法转换成es5)
 1. 下载相应的包
